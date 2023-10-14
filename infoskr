@@ -1,0 +1,26 @@
+
+#!/bin/bash
+
+echo "Script started"
+
+# hostname
+echo "Hostname"
+hostname
+echo " "
+#date & time
+#date
+
+#disk
+echo "Disk usage" 
+df -h
+echo " "
+#linux kernel version
+echo "Kernel version"
+uname -r
+echo " "
+
+#user
+echo "User and user ID"
+whoami
+echo "Your UID is ${UID}"
+
