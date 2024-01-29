@@ -4,7 +4,7 @@ This is an info script for Linux based OS. Copy code to txt or download code.
 We need to make it executable. So let's do  that:
 ```
 cd ~/Downloads
-chmod +x infoskr
+chmod +x infoskr_bash
 ```
 U can do it in GUI as well:
 Right click file, go to properties and turn on Executable as Program.
@@ -12,8 +12,8 @@ Right click file, go to properties and turn on Executable as Program.
 
 U can right click it and then click execute or do it in terminal by typing:
 ```
-./infoskr
+./infoskr_bash
 **OR**
-bash infoskr
+bash infoskr_bash
 ```
 Have fun!
